@@ -5,7 +5,5 @@ while true
 do
     echo "To infinity and beyond"
     sleep 2
+    trap 'echo "I am invincible!!!"' SIGTERM
 done
-
-# when receiving a signal print a string
-trap "echo I am invincible!!!" SIGTERM
