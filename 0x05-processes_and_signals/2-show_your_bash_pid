@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that gets pid of bash process
+# shellcheck disable=SC2009
+ps -auxf | grep bash
