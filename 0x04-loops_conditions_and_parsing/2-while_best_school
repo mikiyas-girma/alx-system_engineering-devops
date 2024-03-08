@@ -4,5 +4,5 @@ lp=1
 while [ $lp -le 10 ]
 do
 echo "Best School"
-lp=$[$lp+1]
+lp=$((lp+1))
 done 
