@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # info about School file
 if [ -e "School" ]; then
-	echo "school file exists"
+  echo "school file exists"
+
 	if [ -z "School" ]; then
 	  echo "School file is empty"
 	else
